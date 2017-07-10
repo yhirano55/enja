@@ -1,5 +1,8 @@
 # Enja
 
+[![Build Status](https://travis-ci.org/yhirano55/enja.svg?branch=master)](https://travis-ci.org/yhirano55/enja)
+[![Gem Version](https://badge.fury.io/rb/enja.svg)](https://badge.fury.io/rb/enja)
+
 Easily role definition depend on `enumerize` gem for Rails.
 
 ## Installation
