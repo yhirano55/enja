@@ -1,0 +1,9 @@
+Description:
+  Generates the necessary files to get you up and running with Enja gem
+
+Examples:
+  rails g enja:install
+
+    This will generate the core migration file, the initializer file and the 'User' model class.
+
+  rails g enja:install --model AdminUser --attribute state
