@@ -6,7 +6,7 @@ Gem::Specification.new do |s|
   s.version     = Enja::VERSION
   s.authors     = ["Yoshiyuki Hirano"]
   s.email       = ["yhirano@me.com"]
-  s.summary     = %q{Easily role definition for Rails}
+  s.summary     = %q{Easy role definition. Supported by the enumerize gem for Rails.}
   s.description = s.summary
   s.homepage    = "https://github.com/yhirano55/enja"
   s.license     = "MIT"
