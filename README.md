@@ -3,7 +3,7 @@
 [![Build Status](https://travis-ci.org/yhirano55/enja.svg?branch=master)](https://travis-ci.org/yhirano55/enja)
 [![Gem Version](https://badge.fury.io/rb/enja.svg)](https://badge.fury.io/rb/enja)
 
-Easily role definition depend on `enumerize` gem for Rails.
+Easy role definition. Supported by the enumerize gem for Rails.
 
 ## Installation
 
@@ -19,11 +19,11 @@ $ bin/rails g enja:install
 
 ## Usage
 
-Call `define_role_method` in your resource of user model (`User`, `AdminUser` or `Member` etc):
+Call `define_role_field` in your resource of user model (`User`, `AdminUser` or `Member` etc):
 
 ```ruby
 class User < ApplicationRecord
-  define_role_method :role, in: [:guest, :staff, :admin], default: :guest
+  define_role_field :role, in: [:guest, :staff, :admin], default: :guest
 end
 ```
 
